@@ -1,0 +1,88 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YOBA PPD X100</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>YOBA PROJET</h1>
+    <img src="https://via.pinterest.com/300x300.png?text=Panier+Projet" alt="panier de projet" class="product-img" />
+    <p class="description">
+    <strong>
+      YOBA PROJET
+      </strong> vous accompagne partout : appels, messages, suivi de santé, GPS intégré… un concentré de technologie au poignet.
+    </p>
+    <p class="prix">Prix : <span id="prix">50fcfa</span></p>
+    <button onclick="ajouterAuPanier()">Ajouter au panier</button>
+    <p id="message">Veillez ajouter votre projet</p>
+  </div>
+  <strong>
+  <FONT color=colcod>YOBA Tresor<FONT>
+  </strong>
+             <BODY bgcolor=colcod>!!
+  <script src="script.js"></script>
+ 
+<style>body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0000A0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product-img {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 18px;
+  color: #333;
+}
+
+.prix {
+  font-size: 20px;
+  color: #000ff;
+  font-weight: bold;
+}
+
+button {
+  background-color: #0000A0;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #000F;
+}
+
+#message {
+  margin-top: 20px;
+  color: #0000A0;
+  font-weight: bold;
+}
+
+</style><script>function ajouterAuPanier() {
+  const message = document.getElementById("message");
+  message.textContent = "Le produit a été ajouté au panier !";
+}
+</script>
